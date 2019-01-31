@@ -51,7 +51,7 @@ end
 def winner(board)
   if !won?(board)
     return nil
-  elsif won?(board) == "X"
+  elsif wincombo == "X"
     return "X"
   else wincombo == "O"
     return "O"
